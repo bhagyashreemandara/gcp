@@ -15,3 +15,8 @@ variable "credentials_file" {
   type        = string
   default     = "service.json"
 }
+
+variable "bucket_name" {
+  description = "The name of the GCS bucket"
+  type        = string
+}
