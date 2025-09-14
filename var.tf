@@ -18,5 +18,6 @@ variable "credentials_file" {
 
 variable "bucket_name" {
   description = "The name of the GCS bucket"
+  default = "bhagyashreebucket"
   type        = string
 }
